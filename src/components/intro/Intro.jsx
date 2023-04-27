@@ -7,10 +7,9 @@ import './intro.css';
 const Intro = () => {
   return (
     <section id="about">
-      <h5>Get to know</h5>
-      <h2>About Me</h2>
+      <h2>Acerca de mi</h2>
       <div className="container about__container">
-        <div className="about__me">
+      <div className="about__me">
           <div className="about__me-image">
             <img src={ME} alt="me" />
           </div>
@@ -19,17 +18,23 @@ const Intro = () => {
           <div className="about__cards">
             <article className="about__card">
               <FaAward className="about__icon" />
-              <h5>Experience</h5>
-              <small>1 year</small>
+              <h5>Experiencias</h5>
+              <small>1 año</small>
             </article>
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
-              <h5>Projects</h5>
-              <small>20+ Completed Projects</small>
+              <h5>Proyectos</h5>
+              <small> 5 Proyectos Realizados</small>
             </article>
           </div>
-          <p>I’ve spent the last several months in a remote environment, working with HTML, CSS, JavaScript, building everything from landing pages to APIs. My experience as a teacher in an international school helped me collaborate with fellow developers from all over the world. Additionally, working with kids isn’t an easy task, however, it has helped me become efficient, productive, and fast even in a very stressful environment, which is an important skill in the tech industry.</p>
-          <a href="#contact" className="btn btn-primary">Let's Talk</a>
+          <p>hola mi nombre es Esther Marisol Ramos Rivera, aun soy estudiante de la carrera de 
+            INGENIERIA DE SISTEMAS de la universidad AUTONOMA TOMAS FRIAS  de la ciudad de Potosi,
+            ya me encuentro cursando los ultimos semetres de la carrera, y eh estado trabajando con HTML, CSS, JavaScript, 
+            creando todo, desde páginas de destino hasta API. Mi experiencia como desarrolladora de paginas me ha ayudado a conocer el amplio mundo 
+            de la web y conocer varios desarroladores de todo el mundo. Además, trabajar con con compa;eros de la materia me ha ayudado a ser eficiente, 
+            productiva y rápida incluso en un entorno muy estresante, lo cual es una habilidad importante en la industria de la tecnología.          
+            </p>
+            
         </div>
       </div>
     </section>

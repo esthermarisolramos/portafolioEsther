@@ -1,20 +1,15 @@
 import React from 'react';
-import CTA from './CTA';
-import HeaderSocials from './HeaderSocials';
 import './header.css';
 
 const Header = () => {
   return (
     <header id="home">
+  
+      <a href="#home" className="footer__logo"> </a>
       <div className="container header__container">
-        <h5>Hello I'm</h5>
-        <h1>Meri Gogichashvili</h1>
-        <h5 className="text-light">Full-stack Developer</h5>
-        <CTA />
-        <a href="#contact" className="scroll__down">
-          Scroll Down
-        </a>
-        <HeaderSocials />
+        <h5>Hola soy</h5>
+        <h1>Esther Marisol Ramos Rivera</h1>
+        <h5 className="text-light">Desarrolladora de paginas web</h5>
       </div>
     </header>
   );
